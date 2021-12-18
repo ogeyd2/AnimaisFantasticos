@@ -1,13 +1,13 @@
 {
-  "name": "1003-eslint",
+  "name": "animais-fantasticos-eslint",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "projeto final do curso de javascript da origamid",
+  "main": "index.html",
   "scripts": {
     "build": "webpack --mode production ",
     "dev": "webpack --mode development --watch "
   },
-  "author": "",
+  "author": "Diego Nascimento",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.16.5",
