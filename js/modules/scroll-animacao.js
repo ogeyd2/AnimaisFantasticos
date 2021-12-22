@@ -19,7 +19,6 @@ export default class ScrollAnima {
   //Verificar a distancia em cada objeto
   //em relação ao scroll site
   checkDistance() {
-    console.log('TESTE')
     this.distance.forEach(item => {
       if (window.pageYOffset > item.offset) {
         item.element.classList.add('ativo')
